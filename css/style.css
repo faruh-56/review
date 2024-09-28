@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'TT Hoves', sans-serif;
+    color: #222;
+}
+
+section {
+    padding: 0 calc(24px + (121 - 24) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(60px + (160 - 60) * ((100vw - 375px) / (1280 - 375)));
+}
+
+section.hello {
+    padding-top: 40px;
+    background-image: url(../img/html_css_js\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top 20px right 40px;
+    background-size: 30%;
+}
+
+.logo {
+    height: calc(30px + (41 - 30) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.courseInfo {
+    display: flex;
+    gap: 30px 160px;
+    flex-wrap: wrap;
+    margin-top: calc(28px + (85 - 28) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(48px + (76 - 48) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.courseData {
+    font-size: 21px;
+    line-height: 140%;
+}
+
+.courseData .value {
+    font-weight: 700;
+}
+
+h1 {
+    font-family: 'Chava', sans-serif;
+    font-size: calc(42px + (80 - 42) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 110%;
+}
+
+p {
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 300;
+    line-height: 140%;
+    margin-top: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.cta {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 328px;
+    padding: 20px 0px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 117%;
+}
+
+button.purple {
+    background: #6E3ABA;
+    color: white;
+    border: 1px solid #6E3ABA;
+}
+
+button.white {
+    background: white;
+    color: #6E3ABA;
+    border: 1px solid #6E3ABA;
+}
+
+section.job {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));;
+    gap: 70px 40px; 
+}
+
+.emoji{
+    height: calc(180px + (210 - 180) * ((100vw - 375px) / (1280 - 375)));
+    width: calc(180px + (210 - 180) * ((100vw - 375px) / (1280 - 375)));
+}
+
+h2 {
+    font-size: calc(34px + (58 - 34) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 117%;
+}
+
+.codeS {
+    font-size: calc(18px + (27 - 18) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.backend {
+    width: calc(328px + (450 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.student {
+    width: calc(328px + (450 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.coder {
+    width: calc(328px + (432 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.prof {
+    width: calc(328px + (477 - 328) * ((100vw - 375px) / (1280 - 375)));
+}
+ 
+.saleContainer {
+    background: #6E3ABA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: calc(4.4vw + 23px) 0 calc(5.3vw + 20px);
+}
+.saleContainer h3 {
+    color: white;
+    font-size: calc(2vw + 26.5px);
+    margin-bottom: calc(4.1vw + 4.7px);
+}
+.time {
+    display: flex;
+    gap: 85px;
+    margin-bottom: calc(4vw + 6px);
+    width: auto;
+}
+.date {
+    font-size: calc(12.6vw + 12.8px);
+    font-family: 'Chava', sans-serif;
+    font-weight: 400;
+    width: auto;
+}
+.timeCard span {
+    font-size: calc(1.9vw + 3px);
+    display: block;
+    text-align: center;
+}
+
+.page5 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+    gap: 90px;
+}
+
+.studyZero {
+    width: calc(9vw + 279px);
+}
+
+.employM {
+    width: calc(9vw + 279px);
+}
+
+.practice {
+    width: calc(9vw + 279px);
+}
+
+.getResult {
+    width: calc(9vw + 279px);
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.infoContainer {
+    display: flex;
+    gap: calc(20px + (51 - 20) * ((100vw - 375px) / (1280 - 375)));
+    flex-wrap: wrap;
+}
+
+.infoCard {
+    flex-basis: 250px;
+    flex-grow: 1;
+}
+
+.infoCard img {
+    width: 100%;
+}
+
+.infoBox {
+    flex-basis: 250px;
+    flex-grow: 3;
+}
+
+h4 {
+    font-size: calc(38px + (48 - 38) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.legendSkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: calc(30px + (40 - 30) * ((100vw - 375px) / (1280 - 375)));
+    column-gap: calc(10px + (90 - 10) * ((100vw - 375px) / (1280 - 375)));
+    margin-top: calc(40px + (90 - 40) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.skill img {
+    width: 36px;
+}
+
+.skill span {
+    display: block;
+    margin-top: 10px;
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+}
+
+.diplomContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.diplomImg {
+    grid-column: span 1;
+    grid-row: span 2;
+    width: calc(328px + (430 - 328) * ((100vw - 375px) / (1280 - 375)));
+    height: calc(200px + (270 - 200) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
+
+.diplomContainer h2 {
+    margin-bottom: 10px;
+    grid-column: 2;
+    grid-row: 1;
+    width: calc(328px + (578 - 328) * ((100vw - 375px) / (1280 - 375)));
+    height: calc(100px + (110 - 100) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.diplomInfo {
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 20px;
+    width: calc(328px + (514 - 328) * ((100vw - 375px) / (1280 - 375)));
+    height: calc(75px + (110 - 75) * ((100vw - 375px) / (1280 - 375)));
+}
+
+
+.salaryInfo {
+    width:calc(328px + (876 - 328) * ((100vw - 375px) / (1280 - 375)));
+    margin-top: calc(2.2vw + 11.7px);
+}
+
+.vacancia {
+    margin-top:calc(1.8vw + 13.4px);
+}
+
+.vacancia img{
+    width: 100%;
+    height: auto;
+}
+
+.thatInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.present {
+    width: calc(380px + (550 - 380) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.infoText {
+    width: calc(300px + (480 - 300) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.present img {
+    width: calc(340px + (510 - 340) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.infoText p {
+    font-size: calc(18px + (21 - 18) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 138%;
+    margin-top: calc(20px + (25 - 20) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.frameBox {
+    border: 2px solid #000000;
+    padding: calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375))) calc(20px + (52 - 20) * ((100vw - 376px) / (1280 - 375))) calc(23px + (35 - 23) * ((100vw - 376px) / (1280 - 375)));
+    position: relative;
+}
+
+#corner {
+    width: calc(40px + (140 - 40) * ((100vw - 375px) / (1280 - 375)));
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+
+.frameBox h2 {
+    margin: 0;
+}
+
+.lessons {
+    margin-top: calc(20px + (40 - 20) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(23px + (34 - 23) * ((100vw - 375px) / (1280 - 375)));
+    list-style-type: none;
+}
+
+.lessons li {
+    border-bottom: 1px solid #A1A1A1;
+    padding: 24px 0;
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.lessons li:first-child {
+    padding-top: 0;
+}
+
+.frame button {
+    display: block;
+    margin: 0 auto;
+}
+
+.mobile {
+    display: none !important;
+}
+
+.feedbacks {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.feedback {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F0F7FD;
+    margin-top: 10px;
+    width: 330px;
+    height: 484px;
+}
+
+.feedbackText {
+    width: 290px;
+    padding: calc(15px + (20 - 15) * ((100vw - 375px) / (1280 - 375)));
+}
+
+.feedbackText img {
+    width: 38px;
+    height: 38px;
+}
+
+.feedbackText p {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.student {
+    display: flex;
+    width: auto;
+    padding: calc(15px + (20 - 15) * ((100vw - 375px) / (1280 - 375)));
+    height: 72px;
+}
+
+.studentinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.student img{
+    width: 72px;
+    height: 72px;
+    border: 1px;
+    border-radius: 50%;
+}
+
+.studentinfo div{
+    margin-left: 16px;
+}
+
+
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    display: none;
+}
+
+.popUp {
+    background: #F0F7FD;
+    width: calc(326px + (800 - 326) * ((100vw - 375px) / (1280 - 375)));
+    height: 80vh;
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    display: none;
+}
+
+.form {
+    width: 320px;
+}
+
+.form h4 {
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+
+    border: 0;
+    border-bottom: 1px solid #A1A1A1;
+    outline: 0;
+    background: transparent;
+
+    font-size: 18px;
+    line-height: 27px;
+    padding: 10px 0;
+}
+
+form button {
+    margin-top: 30px;
+}
+
+.thankYouPage {
+    background: #222;
+    width: calc(326px + (800 - 326) * ((100vw - 375px) / (1280 - 375)));
+    height: 80vh;
+    border-radius: 12px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    display: none;
+}
+
+.thankYouPage h2 {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .mobile {
+        display: block !important;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .frame button {
+        margin-top: 30px;
+    }
+
+    .lessons li:last-child {
+        border: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media ((min-width:375px) and (max-width: 1100px)) {
+    .diplomContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .diplomContainer h2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .diplomImg {
+        grid-row: span 2;
+        grid-column: 1;
+        margin-top: 10px;
+    }
+
+    .diplomInfo {
+        grid-column: 1;
+        grid-row: 4;
+    }
+}
